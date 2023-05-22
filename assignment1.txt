@@ -1,0 +1,39 @@
+Q1)
+i)var1 = "PWSKILLS"
+ii)var2 = [1,3,4,5]
+iii)var3 = 11.2
+iv)var4 = (1,2,3,4)
+
+Q2)
+i)string
+ii)string
+iii)list
+iv)int
+
+Q3)
+i)It gives the exact value of the quotient after division.
+ex)5/2=2.5
+
+ii)It gives the remainder.
+ex)5%2=1
+
+iii)It gives the interger value of the quotient.
+ex)5//2=2
+
+iv)It gives the power value.
+ex)5**2=25
+
+Q7)
+Immutable data types are those whose values cannot be modified after they are created. Any operation that appears to modify an immutable object actually creates a new object with the modified value. Examples of immutable data types include numbers (int, float), strings, and tuples.
+ex) var1 = 'pwskills'
+    var2 = var1
+    var2 = var2 + ' is awesome'
+    print(vara) #output pwskills
+    print(var2) #output pwskills is awesome
+
+Mutable data types are those whose values can be modified after they are created. Any operation that appears to modify an immitable object actually modified the value. Examples of mutable data type include list, set, and dictionaries.
+ex) var1 = [1,2,3]
+    var2 = var1
+    var2[0] = 2
+    print(var1) #output [2,2,3]
+    print(var2) #output [2,2,3]
